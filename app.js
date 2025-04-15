@@ -21,7 +21,7 @@ prevDom.onclick = function(){
 }
 let runTimeOut;
 let runNextAuto = setTimeout(() => {
-    next.click();
+    nextDom();
 }, timeAutoNext)
 function showSlider(type){
     let  SliderItemsDom = SliderDom.querySelectorAll('.carousel .list .item');
@@ -44,6 +44,6 @@ function showSlider(type){
 
     clearTimeout(runNextAuto);
     runNextAuto = setTimeout(() => {
-        next.click();
+        nextDom();
     }, timeAutoNext)
 }

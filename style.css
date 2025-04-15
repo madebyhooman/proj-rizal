@@ -21,6 +21,13 @@ header{
     position: relative;
     z-index: 100;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
 /* carousel */
 .carousel{
     height: 100vh;
